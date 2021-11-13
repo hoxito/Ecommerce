@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/nmarsollier/authgo/model/token"
-	"github.com/nmarsollier/authgo/rest/middlewares"
+	"github.com/hoxito/statsgo/model/token"
+	"github.com/hoxito/statsgo/rest/middlewares"
 )
 
 /**

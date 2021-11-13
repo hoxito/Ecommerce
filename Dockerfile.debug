@@ -1,7 +1,7 @@
 # Docker para desarrollo
 FROM golang:1.14.3-buster
 
-WORKDIR /go/src/github.com/nmarsollier/authgo
+WORKDIR /go/src/github.com/hoxito/statsgo
 RUN go get github.com/derekparker/delve/cmd/dlv
 
 ENV MONGO_URL mongodb://host.docker.internal:27017

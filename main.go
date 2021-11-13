@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nmarsollier/authgo/rest/routes"
+	"github.com/hoxito/statsgo/rest/routes"
 )
 
 func main() {

@@ -5,9 +5,9 @@ import (
 	"log"
 
 	jwt "github.com/dgrijalva/jwt-go/v4"
-	"github.com/nmarsollier/authgo/rabbit"
-	"github.com/nmarsollier/authgo/tools/env"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/rabbit"
+	"github.com/hoxito/statsgo/tools/env"
+	"github.com/hoxito/statsgo/tools/errors"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

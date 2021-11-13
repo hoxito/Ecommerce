@@ -2,7 +2,7 @@ package token
 
 import (
 	jwt "github.com/dgrijalva/jwt-go/v4"
-	"github.com/nmarsollier/authgo/tools/env"
+	"github.com/hoxito/statsgo/tools/env"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

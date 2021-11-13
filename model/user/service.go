@@ -1,9 +1,9 @@
 package user
 
 import (
-	"github.com/nmarsollier/authgo/model/token"
-	"github.com/nmarsollier/authgo/tools/db"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/model/token"
+	"github.com/hoxito/statsgo/tools/db"
+	"github.com/hoxito/statsgo/tools/errors"
 )
 
 // SignUpRequest es un nuevo usuario

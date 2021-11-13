@@ -1,6 +1,6 @@
 package user
 
-import "github.com/nmarsollier/authgo/tools/errors"
+import "github.com/hoxito/statsgo/tools/errors"
 
 // ErrLogin el login es invalido
 var ErrLogin = errors.NewValidationField("login", "invalid")

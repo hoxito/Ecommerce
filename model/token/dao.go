@@ -3,8 +3,8 @@ package token
 import (
 	"context"
 
-	"github.com/nmarsollier/authgo/tools/db"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/tools/db"
+	"github.com/hoxito/statsgo/tools/errors"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

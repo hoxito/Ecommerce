@@ -1,4 +1,4 @@
-module github.com/nmarsollier/authgo
+module github.com/hoxito/statsgo
 
 go 1.14
 

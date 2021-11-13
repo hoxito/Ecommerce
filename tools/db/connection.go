@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/nmarsollier/authgo/tools/env"
+	"github.com/hoxito/statsgo/tools/env"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"

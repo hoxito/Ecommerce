@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator"
-	"github.com/nmarsollier/authgo/tools/db"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/tools/db"
+	"github.com/hoxito/statsgo/tools/errors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )

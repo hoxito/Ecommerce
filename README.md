@@ -35,13 +35,13 @@ export GOFLAGS=-mod=vendor
 Para descargar el proyecto correctamente hay que ejecutar :
 
 ```bash
-go get github.com/nmarsollier/authgo
+go get github.com/hoxito/statsgo
 ```
 
 Una vez descargado, tendremos el codigo fuente del proyecto en la carpeta
 
 ```bash
-cd $GOPATH/src/github.com/nmarsollier/authgo
+cd $GOPATH/src/github.com/hoxito/statsgo
 ```
 
 ## Instalar Librerías requeridas
@@ -122,10 +122,10 @@ docker build -t dev-auth-go .
 
 ```bash
 # Mac | Windows
-docker run -it --name dev-auth-go -p 3000:3000 -v $PWD:/go/src/github.com/nmarsollier/authgo dev-auth-go
+docker run -it --name dev-auth-go -p 3000:3000 -v $PWD:/go/src/github.com/hoxito/statsgo dev-auth-go
 
 # Linux
-docker run -it --add-host host.docker.internal:172.17.0.1 --name dev-auth-go -p 3000:3000 -v $PWD:/go/src/github.com/nmarsollier/authgo dev-auth-go
+docker run -it --add-host host.docker.internal:172.17.0.1 --name dev-auth-go -p 3000:3000 -v $PWD:/go/src/github.com/hoxito/statsgo dev-auth-go
 ```
 
 ### Debug con VSCode
@@ -138,10 +138,10 @@ docker build -t debug-auth-go -f Dockerfile.debug .
 
 ```bash
 # Mac | Windows
-docker run -it --name debug-auth-go -p 3000:3000 -p 40000:40000 -v $PWD:/go/src/github.com/nmarsollier/authgo debug-auth-go
+docker run -it --name debug-auth-go -p 3000:3000 -p 40000:40000 -v $PWD:/go/src/github.com/hoxito/statsgo debug-auth-go
 
 # Linux
-docker run -it --add-host host.docker.internal:172.17.0.1 --name debug-auth-go -p 3000:3000 -p 40000:40000 -v $PWD:/go/src/github.com/nmarsollier/authgo debug-auth-go
+docker run -it --add-host host.docker.internal:172.17.0.1 --name debug-auth-go -p 3000:3000 -p 40000:40000 -v $PWD:/go/src/github.com/hoxito/statsgo debug-auth-go
 ```
 
 El archivo launch.json debe contener lo siguiente
@@ -155,7 +155,7 @@ El archivo launch.json debe contener lo siguiente
                 "type": "go",
                 "request": "launch",
                 "mode": "remote",
-                "remotePath": "/go/src/github.com/nmarsollier/authgo",
+                "remotePath": "/go/src/github.com/hoxito/statsgo",
                 "port": 40000,
                 "host": "127.0.0.1",
                 "program": "${workspaceRoot}",

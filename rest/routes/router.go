@@ -7,9 +7,9 @@ import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
+	"github.com/hoxito/statsgo/rest/middlewares"
+	"github.com/hoxito/statsgo/tools/env"
 	cors "github.com/itsjamie/gin-cors"
-	"github.com/nmarsollier/authgo/rest/middlewares"
-	"github.com/nmarsollier/authgo/tools/env"
 )
 
 // Start this server

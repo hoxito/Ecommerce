@@ -1,0 +1,11 @@
+services:
+  mongodb_contenedor:
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=Stats
+      - MONGO_INITDB_ROOT_USERNAME=jose
+      - MONGO_INITDB_ROOT_PASSWORD=123456
+    volumes:
+      - ./mongo-volume:/data/db
+    ports:
+      - 27017:27017

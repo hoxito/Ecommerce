@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nmarsollier/authgo/model/token"
-	"github.com/nmarsollier/authgo/model/user"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/model/token"
+	"github.com/hoxito/statsgo/model/user"
+	"github.com/hoxito/statsgo/tools/errors"
 )
 
 // ValidateAdmin check admin user is logged in

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/nmarsollier/authgo/tools/env"
-	"github.com/nmarsollier/authgo/tools/errors"
+	"github.com/hoxito/statsgo/tools/env"
+	"github.com/hoxito/statsgo/tools/errors"
 	"github.com/streadway/amqp"
 )
 

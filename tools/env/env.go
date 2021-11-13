@@ -20,7 +20,7 @@ func new() *Configuration {
 	return &Configuration{
 		Port:      3000,
 		RabbitURL: "amqp://localhost",
-		MongoURL:  "mongodb://localhost:27017",
+		MongoURL:  "mongodb://jose:123456@localhost:27017/?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false",
 		WWWWPath:  "www",
 		JWTSecret: "ecb6d3479ac3823f1da7f314d871989b",
 	}
